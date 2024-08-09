@@ -1,0 +1,255 @@
+/* For mobile  */
+@media only screen and (max-width: 600px) {
+    .gap {
+        gap: 1rem;
+    }
+
+    .section-spacing {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+
+    .primary-header {
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: .3px;
+        margin-bottom: .8rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .navagio>div ,
+    .popular-columns,
+    .search-col,
+    .footer-col  {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 8rem;
+    }
+
+    .header {
+        padding: 1rem 0;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .santorini-description {
+        top: 4rem;
+    }
+
+    .left-border {
+        height: 3.5rem;
+        margin-bottom: .5rem;
+    }
+
+    .santorini-description p {
+        font-size: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    .santorini-description h1 {
+        font-size: 2rem;
+        transition: all .3s;
+    }
+
+    .col-sm-6 {
+        flex-basis: 50%;
+    }
+
+    .col-sm-6-wrap {
+        flex-wrap: wrap;
+    }
+
+    .view-tours {
+        display: none;
+    }
+
+    .tour-organizer-col {
+        padding: 1rem;
+    }
+
+    .tour-organizer img {
+        width: 4rem;
+        box-shadow: 0 0 0 transparent;
+        transition: all .5s;
+        padding-bottom: .8rem;
+        margin-bottom: 0;
+    }
+
+    .tour-organizer img:hover {
+        box-shadow: 0 .5px 0 transparent;
+    }
+
+    .navagio-description {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 2rem;
+        width: 90%;
+    }
+
+    .search {
+        padding: 1rem 14rem;
+    }
+
+    .news .more-news {
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+
+    .news-columns {
+        flex-direction: column;
+        gap:2.5rem;
+    }
+
+    .brands-logos ,.footer-col p{
+        margin:auto;
+    }
+
+    .footer-col p{
+        margin-bottom:1rem;
+    }
+
+}
+
+/* For Large Phone and Portrait  */
+@media only screen and (min-width: 600px) and (max-width:992px) {
+    .gap {
+        gap: 1rem;
+    }
+
+    .section-spacing {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+
+    .primary-header {
+        font-size: 1.8rem;
+        font-weight: 700;
+        letter-spacing: .4px;
+        margin-bottom: .8rem;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+
+    .navagio>div ,
+    .search-col,
+    .footer-col  {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 12rem;
+    }
+
+    .header {
+        padding: 2rem 0;
+    }
+
+    .header-menu {
+        display: static;
+    }
+
+    .santorini-description {
+        top: 8rem;
+    }
+
+    .left-border {
+        height: 8rem;
+        margin-bottom: .5rem;
+    }
+
+    .santorini-description p {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .santorini-description h1 {
+        font-size: 2.8rem;
+    }
+
+    
+
+    .col-sm-6 ,.col-lg-6 {
+        flex-basis: 50%;
+    }
+
+    .col-sm-6-wrap {
+        flex-wrap: wrap;
+    }
+
+    .view-tours {
+        display: none;
+    }
+
+    .tour-organizer-col {
+        padding: 1rem;
+    }
+
+    .tour-organizer img {
+        width: 4rem;
+        box-shadow: 0 0 0 transparent;
+        transition: all .5s;
+        padding-bottom: .8rem;
+        margin-bottom: 0;
+    }
+
+    .tour-organizer img:hover {
+        box-shadow: 0 .5px 0 transparent;
+    }
+
+    .navagio-description {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 2rem;
+        width: 90%;
+    }
+
+    .search {
+        padding: 1rem 14rem;
+    }
+
+    .news .more-news {
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+
+    .news-columns {
+        gap:2.5rem;
+    }
+
+    .brands-logos ,.footer-col p{
+        margin:auto;
+    }
+
+    .footer-col p{
+        margin-bottom:1rem;
+    }
+
+}
+
+/* For Landscape and Tablets */
+@media only screen and (min-width: 768px) {}
+
+/* Large Devices such as Desktop */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large For Large Resolutions */
+@media only screen and (min-width: 1200px) {}

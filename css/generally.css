@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::selection{
+    color:var(--blue-color);
+    background-color: var(--yellow-color);
+}
+
+html,
+body {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: var(--primary-font);
+    background-image: url('../image/amsterdam-1\ \(1\).jpg');
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    transition: all .3s;
+}
+
+p {
+    color: var(--gray-500);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+    display: inline-block;
+}
+
+.container {
+    width: 80%;
+    /* max-width:1200px; */
+}
+
+.row {
+    display: flex;
+}
+
+.gap {
+    gap: 30px;
+}
+
+.gap5{
+    gap:5px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-baseline{
+    justify-content:baseline;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.row-direction {
+    flex-direction: row;
+}
+
+.col-direction {
+    flex-direction: column;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.section-spacing {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.section-spacing2{
+    padding-bottom:4rem
+}
+
+.margin-bottom30 {
+    margin-bottom: 3rem;
+}
+
+.margin-bottom15{
+    margin-bottom:15px;
+}
+
+.margin-top15{
+    margin-top:15px;
+}
+
+.margin-top40{
+    margin-top:4rem;
+}
+
+.padding-rl0{
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+.primary-header {
+    color: var(--gray-900);
+    font-size: 2.3rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+    margin-bottom: 10px;
+    transition: all .1s;
+}
+
+.primary-header:hover {
+    color: white;
+    text-shadow: 0 0 3px var(--gray-900);
+}
+
+.secondary-header{
+    color: var(--dark-blue);
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: var(--secondary-sont);
+    letter-spacing: .3px;
+    margin-bottom: 10px;
+    transition:all .3s;
+}
+
+.col-1 {
+    flex-basis: 8.33%;
+}
+
+.col-2 {
+    flex-basis: 16.66%;
+}
+
+.col-2-4{
+    flex-basis: 20%;
+}  /* .col-2-4 =.col-2.4 */
+
+.col-3 {
+    flex-basis: 25%;
+    flex-shrink:0;
+    flex-grow:0;
+}
+
+.col-4 {
+    flex-basis: 33.33%;
+}
+
+.col-5 {
+    flex-basis: 41.66%;
+}
+
+.col-6 {
+    flex-basis: 50%;
+}
+
+.col-7 {
+    flex-basis: 58.33%;
+}
+
+.col-8 {
+    flex-basis: 66.66%;
+}
+
+.col-9 {
+    flex-basis: 75%;
+}
+
+.col-10 {
+    flex-basis: 83.33%;
+}
+
+.col-11 {
+    flex-basis: 91.66%;
+}
+
+.col-12 {
+    flex-basis: 100%;
+}
+
+[class^="col-"]{
+    padding-left:15px;
+    padding-right:15px;
+}
